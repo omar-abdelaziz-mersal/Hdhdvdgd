@@ -15,7 +15,6 @@ class ForgotPasswordActivity : AppCompatActivity() {
         val etEmail = findViewById<EditText>(R.id.etEmailForgot)
         val btnSend = findViewById<Button>(R.id.btnSendCodeForgot)
         val tv = findViewById<TextView>(R.id.tvResultForgot)
-
         btnSend.setOnClickListener {
             val email = etEmail.text.toString().trim()
             if (email.isEmpty()) { tv.text = "اكتب إيميلك"; return@setOnClickListener }

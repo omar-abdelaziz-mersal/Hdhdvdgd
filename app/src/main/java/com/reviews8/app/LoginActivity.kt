@@ -19,10 +19,8 @@ class LoginActivity : AppCompatActivity() {
         val tv = findViewById<TextView>(R.id.tvResult)
         val tvReg = findViewById<TextView>(R.id.tvRegister)
         val tvForgot = findViewById<TextView>(R.id.tvForgot)
-
         tvReg.setOnClickListener { startActivity(Intent(this, RegisterActivity::class.java)) }
         tvForgot.setOnClickListener { startActivity(Intent(this, ForgotPasswordActivity::class.java)) }
-
         btn.setOnClickListener {
             val email = etEmail.text.toString().trim()
             val pass = etPass.text.toString().trim()

@@ -17,7 +17,6 @@ class RegisterActivity : AppCompatActivity() {
         val etConfirm = findViewById<EditText>(R.id.etConfirmPassReg)
         val btnSend = findViewById<Button>(R.id.btnSendCodeReg)
         val tv = findViewById<TextView>(R.id.tvResultReg)
-
         btnSend.setOnClickListener {
             val email = etEmail.text.toString().trim()
             val pass = etPass.text.toString().trim()

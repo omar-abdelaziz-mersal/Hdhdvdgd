@@ -6,13 +6,13 @@
         android:icon="@android:drawable/sym_def_app_icon"
         android:label="Reviews8"
         android:theme="@style/Theme.Reviews8">
-        <activity
-            android:name=".LoginActivity"
-            android:exported="true">
+        <activity android:name=".LoginActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".RegisterActivity" android:exported="false"/>
+        <activity android:name=".ForgotPasswordActivity" android:exported="false"/>
     </application>
 </manifest>

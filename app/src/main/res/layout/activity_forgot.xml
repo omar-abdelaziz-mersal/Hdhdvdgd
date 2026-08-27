@@ -2,17 +2,10 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:orientation="vertical" android:padding="24dp" android:gravity="center">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="نسيت كلمة المرور" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="24dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="هل نسيت كلمة المرور؟" android:textSize="24sp" android:textStyle="bold" android:layout_marginBottom="24dp"/>
     <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="البريد الإلكتروني">
         <com.google.android.material.textfield.TextInputEditText android:id="@+id/etEmailForgot" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textEmailAddress"/>
     </com.google.android.material.textfield.TextInputLayout>
-    <Button android:id="@+id/btnSendCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="إرسال كود التحقق" android:layout_marginTop="12dp"/>
-    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="كود التحقق" android:layout_marginTop="24dp">
-        <com.google.android.material.textfield.TextInputEditText android:id="@+id/etCode" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="number"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    <com.google.android.material.textfield.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="كلمة المرور الجديدة" android:layout_marginTop="12dp">
-        <com.google.android.material.textfield.TextInputEditText android:id="@+id/etNewPass" android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textPassword"/>
-    </com.google.android.material.textfield.TextInputLayout>
-    <Button android:id="@+id/btnReset" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="تغيير كلمة المرور" android:layout_marginTop="12dp"/>
+    <Button android:id="@+id/btnSendCodeForgot" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="إرسال كود التحقق" android:layout_marginTop="12dp"/>
     <TextView android:id="@+id/tvResultForgot" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:textColor="#D32F2F"/>
 </LinearLayout>

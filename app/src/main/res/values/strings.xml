@@ -1,6 +1,15 @@
 <resources>
     <string name="app_name">Reviews8</string>
     <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="forgot">هل نسيت كلمة المرور؟</string>
     <string name="email">البريد الإلكتروني</string>
     <string name="password">كلمة المرور</string>
+    <string name="name">الاسم</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="create_account">إنشاء حساب جديد</string>
+    <string name="have_account">عندك حساب؟ سجل دخول</string>
+    <string name="send_code">إرسال كود التحقق</string>
+    <string name="code">كود التحقق</string>
+    <string name="new_password">كلمة المرور الجديدة</string>
 </resources>
